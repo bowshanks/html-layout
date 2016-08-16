@@ -1,0 +1,77 @@
+.wholepage {
+  width: 100%;
+  height: 100vh;
+  background: url("./photo-1465459462810-6f2d41fae06b.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.primary-header {
+  width: 100%;
+  height: 13vh;
+  position: relative;
+}
+.headerhover:hover {
+  background-color: red;
+  opacity: .2;
+}
+.icon {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  position: absolute;
+  top: 35%;
+}
+.logo {
+  float: left;
+  left: 5%;
+}
+.menu {
+  float: right;
+  right: 5%;
+}
+.other-section {
+  position: relative;
+}
+.textholder {
+  width: 66.66%;
+  height: 50vh;
+  position: absolute;
+  left: 16%;
+  padding-top: 30px;
+}
+.primary-text {
+  width: 100%;
+  height: 10vh;
+  text-align: center;
+  font-family: "Arial Black";
+  color: white;
+  font-size: 50px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 35px;
+  margin-top: 35px;
+}
+.hr {
+  width: 10%;
+  height: 1px;
+  border-top: 2px solid white;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 45px;
+}
+.small-text {
+  width: 100%;
+  height: 25vh;
+  text-align: center;
+  font-family: Arial;
+  color: white;
+  font-size: 20px;
+  margin: 0 auto;
+  display: block;
+}
+.bb {
+  position: absolute;
+  left: 45%;
+}

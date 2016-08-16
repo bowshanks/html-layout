@@ -1,0 +1,30 @@
+.column {
+  width: 33%;
+  height: 100vh;
+  display: inline-block;
+  float: left;
+}
+.side-left {
+  background: purple;
+}
+.mid {
+  background: green;
+}
+.side-right {
+  background: yellow;
+  position: relative;
+}
+.image-holder {
+  height: 20vh;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: red;
+}
+p {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: white;
+  margin-top: 50px;
+}

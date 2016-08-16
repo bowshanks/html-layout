@@ -1,0 +1,44 @@
+.prim-header {
+  width:100%;
+  height: 20vh;
+  background: #b3b3b3;
+  position: relative;
+}
+.container{
+
+}
+.primary {
+  width: 100%;
+  height: 40vh;
+  background: white;
+}
+.sections {
+  width: 100%;
+  height: 18vh;
+
+}
+.top-corner {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 20;
+  top: 15;
+  background: violet;
+}
+.one {
+  background: red;
+}
+.two {
+  background: orange;
+}
+.three {
+  background: yellow;
+}
+.four {
+  background: green;
+}
+.text-holder{
+  width: 90%;
+  margin: 50 auto;
+
+}

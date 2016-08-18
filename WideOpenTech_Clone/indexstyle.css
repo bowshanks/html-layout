@@ -1,0 +1,279 @@
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  background: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg") center top;
+  background-size: cover;
+}
+.main-header {
+  height: 65px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction:row;
+  padding:40px 40px;
+}
+
+.logo img {
+  width: 155px;
+  height: 31px;
+}
+
+/*Hiding main nav on mobile */
+.main-nav {
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  display: none;
+}
+.main-nav ul {
+  width: 100%;
+  /*justify-content: space-around;*/
+}
+.main-nav ul li {
+  display: inline-block;
+  margin-left:30px;
+}
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://fonts.gstatic.com/s/materialicons/v17/2fcrYFNaTjcS6g4U3t-Y5UEw0lE80llgEseQY3FEmqw.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+.masthead {
+  width:100%;
+  height: calc(609px - 65px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.primary-text {
+  color: white;
+  letter-spacing: 1px;
+}
+.primary-text small {
+  font-size: 22px;
+  text-align: left;
+  display: block;
+
+}
+.main-text {
+  display: block;
+  font-size: 18vmin;
+  line-height: 19vmin;
+  text-align: center;
+}
+.other-text {
+  display: block;
+  clear:both;
+  font-size: 18px;
+  text-align: center;
+}
+.learnmore {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 65px;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.learnmore button {
+  background: #47d147;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+  height: 50px;
+  width: 190px;
+}
+.howworks {
+  display: inline;
+}
+.infobox{
+  width: 100%;
+  height: 50vh;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.info-text {
+  width: 100%;
+  /*height: 100%;*/
+  padding:0 20px;
+  background: #f2f2f2;
+  color: #808080;
+}
+.col-md{
+    padding: 40px 0;
+    font-size: 42px;
+}
+.info-text p {
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 30px;
+}
+.work-icon {
+  height: 75px;
+  width: 75px;
+  background: url("http://wideopentech.com/themes/wot-2013-gm/_/img/sprite_home.png");
+  background-image: url("http://wideopentech.com/themes/wot-2013-gm/_/img/sprite_home.png");
+  background-position-x: -22px;
+  background-position-y: -113px;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.into-text h4 {
+  color: #404040;
+  font-size: 42px;
+}
+.steps{
+  width: 100%;
+  color: #999999;
+  font-size: 18px;
+  display: inline;
+}
+.lightbulb{
+  content: "";
+    display: block;
+    width: 131px;
+    height: 160px;
+    background: url("http://wideopentech.com/themes/wot-2013-gm/_/img/sprite_home.png") no-repeat;
+    background-image: url("http://wideopentech.com/themes/wot-2013-gm/_/img/sprite_home.png");
+    background-position-x: -307px;
+    background-position-y: -75px;
+    background-size: initial;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    margin: 0 auto 27px auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 27px;
+    margin-left: auto;
+
+}
+.infobox p {
+  margin-bottom: 12px;
+}
+.learn-cta {
+  font-size: 14px;
+  text-decoration: none;
+}
+.arrow{
+  height: 30px;
+  width: 27px;
+  background: url("http://wideopentech.com/themes/wot-2013-gm/_/img/sprite_home.png");
+  background-image: url("http://wideopentech.com/themes/wot-2013-gm/_/img/sprite_home.png");
+  background-position-x: -46px;
+  background-position-y: -292px;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+  content: " ";
+  display: block;
+  background-position: -46px -292px;
+  background-position-x: -46px;
+  background-position-y: -292px;
+  margin: 20px auto;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-left: auto;
+}
+
+.squiggle-arrow {
+  content: "";
+  display: block;
+  width: 99px;
+  height: 160px;
+  background: url("http://wideopentech.com/themes/wot-2013-gm/_/img/sprite_home.png") no-repeat;
+  background-image: url("http://wideopentech.com/themes/wot-2013-gm/_/img/sprite_home.png");
+  background-position-x: -212px;
+  background-position-y: -75px;
+  background-size: initial;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+  margin: 0 auto 27px auto;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 27px;
+  margin-left: auto;
+}
+.power {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 160px;
+    background: url("http://wideopentech.com/themes/wot-2013-gm/_/img/sprite_home.png") no-repeat;
+    background-image: url("http://wideopentech.com/themes/wot-2013-gm/_/img/sprite_home.png");
+    background-position-x: -112px;
+    background-position-y: -75px;
+    background-size: initial;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    margin: 0 auto 27px auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 27px;
+    margin-left: auto;
+}
+
+
+
+
+@media (min-width: 768px) {
+  .main-header {
+    background-color: transparent;
+    flex-direction:column;
+    align-items: stretch;
+  }
+  .main-nav {
+    display: flex;
+    align-content: center;
+  }
+  .material-icons {
+    display: none;
+  }
+}
